@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-09-16 14:02+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/components/TradingChart.tsx:245
+msgid "24h Change"
+msgstr "24小时变化"
+
+#: src/components/TradingPanel.tsx:431
+msgid "Available Balance"
+msgstr "可用余额"
+
+#: src/components/TradingChart.tsx:205
+msgid "BTC/USDT Trading Chart (4H)"
+msgstr "BTC/USDT 交易图表 (4H)"
+
+#: src/components/WalletButton.tsx:59
+msgid "Connect Wallet"
+msgstr "连接钱包"
+
+#: src/components/TradingPanel.tsx:397
+msgid "Contract Fee"
+msgstr "合约费率"
+
+#: src/components/TradingPanel.tsx:329
+msgid "Cross"
+msgstr "全仓"
+
+#: src/components/TradingPanel.tsx:154
+msgid "Current Price"
+msgstr "当前价格"
+
+#: src/components/TradingChart.tsx:291
+msgid "Data loading failed"
+msgstr "数据加载失败"
+
+#: src/components/TradingChart.tsx:265
+msgid "data points"
+msgstr "个数据点"
+
+#: src/components/TradingChart.tsx:253
+msgid "Data Range"
+msgstr "数据范围"
+
+#: src/components/TradingPanel.tsx:46
+msgid "Failed to fetch trading data"
+msgstr "获取交易数据失败"
+
+#: src/components/TradingPanel.tsx:381
+msgid "Funding Rate"
+msgstr "资金费率"
+
+#: src/components/TradingPanel.tsx:420
+msgid "Index Price"
+msgstr "指数价格"
+
+#: src/components/TradingPanel.tsx:328
+msgid "Isolated"
+msgstr "逐仓"
+
+#: src/components/TradingPanel.tsx:274
+msgid "Leverage"
+msgstr "杠杆倍数"
+
+#: src/components/TradingPanel.tsx:189
+msgid "Limit"
+msgstr "限价单"
+
+#: src/components/TradingChart.tsx:313
+msgid "Loading data..."
+msgstr "加载数据中..."
+
+#: src/components/TradingChart.tsx:275
+msgid "Loading historical data..."
+msgstr "加载历史数据中..."
+
+#: src/components/TradingPanel.tsx:455
+msgid "Long"
+msgstr "多头"
+
+#: src/components/TradingPanel.tsx:441
+msgid "Long/Short Ratio"
+msgstr "多空比"
+
+#: src/components/TradingPanel.tsx:263
+msgid "Margin"
+msgstr "保证金"
+
+#: src/components/TradingPanel.tsx:311
+msgid "Margin Mode"
+msgstr "保证金模式"
+
+#: src/components/TradingPanel.tsx:408
+msgid "Mark Price"
+msgstr "标记价格"
+
+#: src/components/TradingPanel.tsx:188
+msgid "Market"
+msgstr "市价单"
+
+#: src/components/TradingPanel.tsx:266
+msgid "Notional Value"
+msgstr "名义价值"
+
+#: src/components/TradingPanel.tsx:451
+msgid "Open Interest Distribution"
+msgstr "持仓量分布"
+
+#: src/components/TradingPanel.tsx:212
+#: src/components/TradingPanel.tsx:351
+msgid "Open"
+msgstr "开仓"
+
+#: src/components/TradingPanel.tsx:229
+#: src/components/TradingPanel.tsx:351
+msgid "Close"
+msgstr "平仓"
+
+#: src/components/TradingPanel.tsx:90
+msgid "Order submission failed"
+msgstr "订单提交失败"
+
+#: src/components/TradingPanel.tsx:93
+msgid "Order submission failed, please try again"
+msgstr "订单提交失败，请重试"
+
+#: src/components/TradingPanel.tsx:87
+msgid "Order submitted successfully! Order ID"
+msgstr "订单已提交！订单ID"
+
+#: src/components/TradingPanel.tsx:171
+msgid "Order Type"
+msgstr "订单类型"
+
+#: src/components/TradingPanel.tsx:70
+msgid "Please enter a valid trading amount"
+msgstr "请输入有效的交易数量"
+
+#: src/components/TradingChart.tsx:222
+msgid "Refresh"
+msgstr "刷新"
+
+#: src/components/TradingPanel.tsx:458
+msgid "Short"
+msgstr "空头"
+
+#: src/components/TradingPanel.tsx:237
+msgid "Trading Amount"
+msgstr "交易数量"
+
+#: src/components/TradingPanel.tsx:375
+msgid "Trading Information"
+msgstr "交易信息"
+
+#: src/components/TradingPanel.tsx:148
+msgid "Trading Panel"
+msgstr "交易面板"
+
+#: src/components/WalletButton.tsx:82
+msgid "Wrong Network"
+msgstr "网络错误"
