@@ -3,8 +3,6 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { Button, Box } from '@mui/material';
 import { Wallet } from '@mui/icons-material';
 import { t } from '@lingui/macro';
-import { useDispatch, useSelector } from 'react-redux';
-import { updateConnectionStatus, updateChainId, updateAddress } from '@/store/walletSlice';
 
 const WalletButton: React.FC = () => {
   return (
@@ -19,7 +17,6 @@ const WalletButton: React.FC = () => {
           authenticationStatus,
           mounted,
         }) => {
-          const dispatch = useDispatch();
           const ready = mounted && authenticationStatus !== 'loading';
           const connected =
             ready &&
@@ -27,11 +24,6 @@ const WalletButton: React.FC = () => {
             chain &&
             (!authenticationStatus ||
               authenticationStatus === 'authenticated');
-
-          // 处理一下store状态
-          dispatch(updateConnectionStatus(connected ? "connected" : "disconnected"));
-          dispatch(updateChainId(chain && chain.id ? chain.id : null));
-          dispatch(updateAddress(account && account.address ? account.address : null));
 
           return (
             <div

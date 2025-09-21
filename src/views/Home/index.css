@@ -1,0 +1,34 @@
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  position: relative;
+}
+
+.container-header {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.container-content {
+  padding: 20px;
+  padding-top: 80px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  height: calc(100vh - 100px);
+}
+
+.content-kline {
+  flex: 1;
+  min-width: 60%;
+}
+
+.trading-panel {
+  width: 400px;
+  min-width: 400px;
+}
